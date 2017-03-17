@@ -86,13 +86,16 @@ You can access the app [localhost:3000](http://localhost:3000). Whatever you cha
 
 ### Commits
 * Commit title should be short and descriptive
-  * title (or summary line) is the first line of the commit message
-  * that says what the commit is doing
-  * in no more than 50 characters
-  * starting with a word like 'Fix' or 'Add' or 'Change'
+  * Title (or summary line) is the first line of the commit message
+  * That says what the commit is doing in imperative mood (Fix foobar)
+  * In no more than 50 characters
+  * Starting with a word like 'Fix' or 'Add' or 'Change'
   * **without** a period (.) at the end
-  * followed by a blank line
+  * Followed by a blank line
+  * Read this [article](https://chris.beams.io/posts/git-commit/) for more information
 * Commit messages are
+  * Use the body to explain why you made the change
+  * Describing how is not necessary, code is generally self-explanatory
   * up to 72 characters
   * with break lines
 * Reference the issue(s) the commit closes
